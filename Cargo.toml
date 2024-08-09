@@ -1,0 +1,12 @@
+[package]
+name = "be2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+async-nats = "0.35.1"
+futures = "0.3.30"
+rand = "0.8.5"
+
+
